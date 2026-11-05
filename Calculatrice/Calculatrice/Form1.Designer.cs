@@ -2,15 +2,8 @@
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,329 +15,318 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            Addition = new Button();
-            soustraction = new Button();
-            Calcul = new Button();
-            virgule = new Button();
-            division = new Button();
-            Multiplication = new Button();
-            Reset = new Button();
-            LabelCalcul = new Label();
+            grilleBoutons = new TableLayoutPanel();
+            lblHistorique = new Label();
+            lblAffichage = new Label();
+            btnReset = new Button();
+            btnEffacer = new Button();
+            btnDivision = new Button();
+            btnMultiplication = new Button();
+            btn7 = new Button();
+            btn8 = new Button();
+            btn9 = new Button();
+            btnSoustraction = new Button();
+            btn4 = new Button();
+            btn5 = new Button();
+            btn6 = new Button();
+            btnAddition = new Button();
+            btn1 = new Button();
+            btn2 = new Button();
+            btn3 = new Button();
+            btnEgal = new Button();
+            btn0 = new Button();
+            btnVirgule = new Button();
+            grilleBoutons.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label1.BackColor = SystemColors.ButtonHighlight;
-            label1.Font = new Font("Segoe UI", 25F);
-            label1.Location = new Point(13, 29);
-            label1.Name = "label1";
-            label1.Size = new Size(391, 46);
-            label1.TabIndex = 0;
-            label1.Text = "0";
-            label1.TextAlign = ContentAlignment.MiddleRight;
-            label1.Click += label1_Click;
-            // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button1.AutoSize = true;
-            button1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button1.ForeColor = SystemColors.ControlText;
-            button1.Location = new Point(14, 135);
-            button1.Name = "button1";
-            button1.Size = new Size(85, 35);
-            button1.TabIndex = 1;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button2.AutoSize = true;
-            button2.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button2.Location = new Point(116, 134);
-            button2.Name = "button2";
-            button2.Size = new Size(85, 35);
-            button2.TabIndex = 2;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button3.AutoSize = true;
-            button3.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button3.Location = new Point(219, 135);
-            button3.Name = "button3";
-            button3.Size = new Size(85, 35);
-            button3.TabIndex = 3;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button4.AutoSize = true;
-            button4.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button4.Location = new Point(14, 176);
-            button4.Name = "button4";
-            button4.Size = new Size(85, 35);
-            button4.TabIndex = 4;
-            button4.Text = "4";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
-            // 
-            // button5
-            // 
-            button5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button5.AutoSize = true;
-            button5.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button5.Location = new Point(116, 175);
-            button5.Name = "button5";
-            button5.Size = new Size(85, 35);
-            button5.TabIndex = 5;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
-            // 
-            // button6
-            // 
-            button6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button6.AutoSize = true;
-            button6.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button6.Location = new Point(219, 176);
-            button6.Name = "button6";
-            button6.Size = new Size(85, 35);
-            button6.TabIndex = 6;
-            button6.Text = "6";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
-            // button7
-            // 
-            button7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button7.AutoSize = true;
-            button7.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button7.Location = new Point(14, 217);
-            button7.Name = "button7";
-            button7.Size = new Size(85, 35);
-            button7.TabIndex = 7;
-            button7.Text = "7";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
-            // 
-            // button8
-            // 
-            button8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button8.AutoSize = true;
-            button8.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button8.Location = new Point(116, 216);
-            button8.Name = "button8";
-            button8.Size = new Size(85, 35);
-            button8.TabIndex = 8;
-            button8.Text = "8";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
-            // 
-            // button9
-            // 
-            button9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button9.AutoSize = true;
-            button9.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button9.Location = new Point(219, 217);
-            button9.Name = "button9";
-            button9.Size = new Size(85, 35);
-            button9.TabIndex = 9;
-            button9.Text = "9";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
-            // 
-            // button10
-            // 
-            button10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button10.AutoSize = true;
-            button10.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            button10.Location = new Point(116, 257);
-            button10.Name = "button10";
-            button10.Size = new Size(85, 35);
-            button10.TabIndex = 10;
-            button10.Text = "0";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
-            // 
-            // Addition
-            // 
-            Addition.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Addition.AutoSize = true;
-            Addition.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Addition.Location = new Point(319, 135);
-            Addition.Name = "Addition";
-            Addition.Size = new Size(85, 35);
-            Addition.TabIndex = 11;
-            Addition.Text = "+";
-            Addition.UseVisualStyleBackColor = true;
-            Addition.Click += addition_Click;
-            // 
-            // soustraction
-            // 
-            soustraction.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            soustraction.AutoSize = true;
-            soustraction.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            soustraction.Location = new Point(319, 176);
-            soustraction.Name = "soustraction";
-            soustraction.Size = new Size(85, 35);
-            soustraction.TabIndex = 12;
-            soustraction.Text = "-";
-            soustraction.UseVisualStyleBackColor = true;
-            soustraction.Click += soustraction_Click;
-            // 
-            // Calcul
-            // 
-            Calcul.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Calcul.AutoSize = true;
-            Calcul.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Calcul.Location = new Point(319, 258);
-            Calcul.Name = "Calcul";
-            Calcul.Size = new Size(85, 35);
-            Calcul.TabIndex = 13;
-            Calcul.Text = "=";
-            Calcul.UseVisualStyleBackColor = true;
-            Calcul.Click += Calcul_Click;
-            // 
-            // virgule
-            // 
-            virgule.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            virgule.AutoSize = true;
-            virgule.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            virgule.Location = new Point(219, 258);
-            virgule.Name = "virgule";
-            virgule.Size = new Size(85, 35);
-            virgule.TabIndex = 14;
-            virgule.Text = ",";
-            virgule.UseVisualStyleBackColor = true;
-            virgule.Click += virgule_Click;
-            // 
-            // division
-            // 
-            division.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            division.AutoSize = true;
-            division.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            division.Location = new Point(319, 217);
-            division.Name = "division";
-            division.Size = new Size(85, 35);
-            division.TabIndex = 15;
-            division.Text = "/";
-            division.UseVisualStyleBackColor = true;
-            division.Click += division_Click;
-            // 
-            // Multiplication
-            // 
-            Multiplication.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Multiplication.AutoSize = true;
-            Multiplication.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Multiplication.Location = new Point(219, 94);
-            Multiplication.Name = "Multiplication";
-            Multiplication.Size = new Size(85, 35);
-            Multiplication.TabIndex = 16;
-            Multiplication.Text = "*";
-            Multiplication.UseVisualStyleBackColor = true;
-            Multiplication.Click += Multiplication_Click;
-            // 
-            // Reset
-            // 
-            Reset.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Reset.AutoSize = true;
-            Reset.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Reset.Location = new Point(319, 94);
-            Reset.Name = "Reset";
-            Reset.Size = new Size(85, 35);
-            Reset.TabIndex = 17;
-            Reset.Text = "Reset";
-            Reset.UseVisualStyleBackColor = true;
-            Reset.Click += Reset_Click;
-            // 
-            // LabelCalcul
-            // 
-            LabelCalcul.Location = new Point(14, 9);
-            LabelCalcul.Name = "LabelCalcul";
-            LabelCalcul.Size = new Size(390, 20);
-            LabelCalcul.TabIndex = 18;
-            LabelCalcul.TextAlign = ContentAlignment.MiddleRight;
-            LabelCalcul.Click += LabelCalcul_Click;
-            // 
+            //
+            // grilleBoutons
+            //
+            grilleBoutons.ColumnCount = 4;
+            grilleBoutons.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            grilleBoutons.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            grilleBoutons.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            grilleBoutons.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            grilleBoutons.Controls.Add(lblHistorique, 0, 0);
+            grilleBoutons.Controls.Add(lblAffichage, 0, 1);
+            grilleBoutons.Controls.Add(btnReset, 0, 2);
+            grilleBoutons.Controls.Add(btnEffacer, 1, 2);
+            grilleBoutons.Controls.Add(btnDivision, 2, 2);
+            grilleBoutons.Controls.Add(btnMultiplication, 3, 2);
+            grilleBoutons.Controls.Add(btn7, 0, 3);
+            grilleBoutons.Controls.Add(btn8, 1, 3);
+            grilleBoutons.Controls.Add(btn9, 2, 3);
+            grilleBoutons.Controls.Add(btnSoustraction, 3, 3);
+            grilleBoutons.Controls.Add(btn4, 0, 4);
+            grilleBoutons.Controls.Add(btn5, 1, 4);
+            grilleBoutons.Controls.Add(btn6, 2, 4);
+            grilleBoutons.Controls.Add(btnAddition, 3, 4);
+            grilleBoutons.Controls.Add(btn1, 0, 5);
+            grilleBoutons.Controls.Add(btn2, 1, 5);
+            grilleBoutons.Controls.Add(btn3, 2, 5);
+            grilleBoutons.Controls.Add(btnEgal, 3, 5);
+            grilleBoutons.Controls.Add(btn0, 0, 6);
+            grilleBoutons.Controls.Add(btnVirgule, 2, 6);
+            grilleBoutons.Dock = DockStyle.Fill;
+            grilleBoutons.Location = new Point(8, 8);
+            grilleBoutons.Name = "grilleBoutons";
+            grilleBoutons.RowCount = 7;
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Absolute, 24F));
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Absolute, 60F));
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            grilleBoutons.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            grilleBoutons.Size = new Size(304, 404);
+            grilleBoutons.TabIndex = 0;
+            //
+            // lblHistorique
+            //
+            grilleBoutons.SetColumnSpan(lblHistorique, 4);
+            lblHistorique.Dock = DockStyle.Fill;
+            lblHistorique.Font = new Font("Segoe UI", 10F);
+            lblHistorique.ForeColor = SystemColors.GrayText;
+            lblHistorique.Name = "lblHistorique";
+            lblHistorique.TabIndex = 0;
+            lblHistorique.TextAlign = ContentAlignment.MiddleRight;
+            //
+            // lblAffichage
+            //
+            lblAffichage.AutoEllipsis = true;
+            lblAffichage.BackColor = SystemColors.Window;
+            grilleBoutons.SetColumnSpan(lblAffichage, 4);
+            lblAffichage.Dock = DockStyle.Fill;
+            lblAffichage.Font = new Font("Segoe UI", 24F);
+            lblAffichage.Name = "lblAffichage";
+            lblAffichage.TabIndex = 1;
+            lblAffichage.Text = "0";
+            lblAffichage.TextAlign = ContentAlignment.MiddleRight;
+            //
+            // btnReset
+            //
+            btnReset.Dock = DockStyle.Fill;
+            btnReset.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnReset.Name = "btnReset";
+            btnReset.TabStop = false;
+            btnReset.Text = "C";
+            btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += Reset_Click;
+            //
+            // btnEffacer
+            //
+            btnEffacer.Dock = DockStyle.Fill;
+            btnEffacer.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnEffacer.Name = "btnEffacer";
+            btnEffacer.TabStop = false;
+            btnEffacer.Text = "←";
+            btnEffacer.UseVisualStyleBackColor = true;
+            btnEffacer.Click += Effacer_Click;
+            //
+            // btnDivision
+            //
+            btnDivision.Dock = DockStyle.Fill;
+            btnDivision.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnDivision.Name = "btnDivision";
+            btnDivision.TabStop = false;
+            btnDivision.Text = "÷";
+            btnDivision.UseVisualStyleBackColor = true;
+            btnDivision.Click += Operation_Click;
+            //
+            // btnMultiplication
+            //
+            btnMultiplication.Dock = DockStyle.Fill;
+            btnMultiplication.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnMultiplication.Name = "btnMultiplication";
+            btnMultiplication.TabStop = false;
+            btnMultiplication.Text = "×";
+            btnMultiplication.UseVisualStyleBackColor = true;
+            btnMultiplication.Click += Operation_Click;
+            //
+            // btn7
+            //
+            btn7.Dock = DockStyle.Fill;
+            btn7.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn7.Name = "btn7";
+            btn7.TabStop = false;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = true;
+            btn7.Click += Chiffre_Click;
+            //
+            // btn8
+            //
+            btn8.Dock = DockStyle.Fill;
+            btn8.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn8.Name = "btn8";
+            btn8.TabStop = false;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = true;
+            btn8.Click += Chiffre_Click;
+            //
+            // btn9
+            //
+            btn9.Dock = DockStyle.Fill;
+            btn9.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn9.Name = "btn9";
+            btn9.TabStop = false;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = true;
+            btn9.Click += Chiffre_Click;
+            //
+            // btnSoustraction
+            //
+            btnSoustraction.Dock = DockStyle.Fill;
+            btnSoustraction.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnSoustraction.Name = "btnSoustraction";
+            btnSoustraction.TabStop = false;
+            btnSoustraction.Text = "−";
+            btnSoustraction.UseVisualStyleBackColor = true;
+            btnSoustraction.Click += Operation_Click;
+            //
+            // btn4
+            //
+            btn4.Dock = DockStyle.Fill;
+            btn4.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn4.Name = "btn4";
+            btn4.TabStop = false;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = true;
+            btn4.Click += Chiffre_Click;
+            //
+            // btn5
+            //
+            btn5.Dock = DockStyle.Fill;
+            btn5.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn5.Name = "btn5";
+            btn5.TabStop = false;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = true;
+            btn5.Click += Chiffre_Click;
+            //
+            // btn6
+            //
+            btn6.Dock = DockStyle.Fill;
+            btn6.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn6.Name = "btn6";
+            btn6.TabStop = false;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = true;
+            btn6.Click += Chiffre_Click;
+            //
+            // btnAddition
+            //
+            btnAddition.Dock = DockStyle.Fill;
+            btnAddition.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnAddition.Name = "btnAddition";
+            btnAddition.TabStop = false;
+            btnAddition.Text = "+";
+            btnAddition.UseVisualStyleBackColor = true;
+            btnAddition.Click += Operation_Click;
+            //
+            // btn1
+            //
+            btn1.Dock = DockStyle.Fill;
+            btn1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn1.Name = "btn1";
+            btn1.TabStop = false;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = true;
+            btn1.Click += Chiffre_Click;
+            //
+            // btn2
+            //
+            btn2.Dock = DockStyle.Fill;
+            btn2.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn2.Name = "btn2";
+            btn2.TabStop = false;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += Chiffre_Click;
+            //
+            // btn3
+            //
+            btn3.Dock = DockStyle.Fill;
+            btn3.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn3.Name = "btn3";
+            btn3.TabStop = false;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += Chiffre_Click;
+            //
+            // btnEgal
+            //
+            btnEgal.BackColor = Color.SteelBlue;
+            btnEgal.Dock = DockStyle.Fill;
+            btnEgal.FlatStyle = FlatStyle.Flat;
+            btnEgal.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnEgal.ForeColor = Color.White;
+            btnEgal.Name = "btnEgal";
+            grilleBoutons.SetRowSpan(btnEgal, 2);
+            btnEgal.TabStop = false;
+            btnEgal.Text = "=";
+            btnEgal.UseVisualStyleBackColor = false;
+            btnEgal.Click += Egal_Click;
+            //
+            // btn0
+            //
+            grilleBoutons.SetColumnSpan(btn0, 2);
+            btn0.Dock = DockStyle.Fill;
+            btn0.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btn0.Name = "btn0";
+            btn0.TabStop = false;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = true;
+            btn0.Click += Chiffre_Click;
+            //
+            // btnVirgule
+            //
+            btnVirgule.Dock = DockStyle.Fill;
+            btnVirgule.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            btnVirgule.Name = "btnVirgule";
+            btnVirgule.TabStop = false;
+            btnVirgule.Text = ",";
+            btnVirgule.UseVisualStyleBackColor = true;
+            btnVirgule.Click += Virgule_Click;
+            //
             // Form1
-            // 
+            //
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            BackColor = SystemColors.ActiveBorder;
-            ClientSize = new Size(415, 305);
-            Controls.Add(LabelCalcul);
-            Controls.Add(Reset);
-            Controls.Add(Multiplication);
-            Controls.Add(division);
-            Controls.Add(virgule);
-            Controls.Add(Calcul);
-            Controls.Add(soustraction);
-            Controls.Add(Addition);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label1);
+            ClientSize = new Size(320, 420);
+            Controls.Add(grilleBoutons);
+            KeyPreview = true;
+            MinimumSize = new Size(300, 400);
             Name = "Form1";
+            Padding = new Padding(8);
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculatrice";
+            grilleBoutons.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button Addition;
-        private Button soustraction;
-        private Button Calcul;
-        private Button virgule;
-        private Button division;
-        private Button Multiplication;
-        private Button Reset;
-        private Label LabelCalcul;
+        private TableLayoutPanel grilleBoutons;
+        private Label lblHistorique;
+        private Label lblAffichage;
+        private Button btnReset;
+        private Button btnEffacer;
+        private Button btnDivision;
+        private Button btnMultiplication;
+        private Button btn7;
+        private Button btn8;
+        private Button btn9;
+        private Button btnSoustraction;
+        private Button btn4;
+        private Button btn5;
+        private Button btn6;
+        private Button btnAddition;
+        private Button btn1;
+        private Button btn2;
+        private Button btn3;
+        private Button btnEgal;
+        private Button btn0;
+        private Button btnVirgule;
     }
 }
